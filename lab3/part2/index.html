@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Lab</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+        }
+        nav {
+            background-color: #f4f4f4;
+            width: 200px;
+            height: 100%;
+            position: fixed;
+            padding: 10px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            display: block;
+            margin: 10px 0;
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: blue;
+        }
+        main {
+            margin-left: 220px;
+            padding: 20px;
+            flex: 1;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+            position: relative;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="about.html">About Me</a>
+        <a href="mycat.html">My Jiw</a>
+        <a href="hobby.html">My Hobby</a>
+    </nav>
+    <main>
+        <header>
+            Welcome to My Lab
+        </header>
+        <img src="IMG_2408.JPG" alt="Cat Image" width="250px" style="border-radius: 10%;">
+        <p>This is the main content of the page. Click on the menu items to navigate to different sections.</p>
+    </main>
+    <footer>
+        Contact me: <a href="mailto:example@example.com">example@example.com</a><br>
+        Follow me on: <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">LinkedIn</a><br>
+        &copy; 2024 My Lab
+    </footer>
+</body>
+</html>

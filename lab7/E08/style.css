@@ -1,0 +1,72 @@
+/* Minimal Style */
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f8fafc; /* โทนขาวฟ้า */
+    color: #333;
+}
+
+/* ฟอร์ม */
+form {
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* อินพุต */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 220px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-right: 12px;
+    transition: border-color 0.3s;
+}
+
+/* เปลี่ยนสีขอบเมื่อโฟกัส */
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+/* ปุ่ม */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ปุ่ม Hover */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* ข้อความผลลัพธ์ */
+#output {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/* ปุ่มกลับ */
+.back-button {
+    background-color: #28a745;
+    margin-top: 20px;
+}
+.back-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}

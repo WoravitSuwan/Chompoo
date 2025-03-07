@@ -1,0 +1,76 @@
+/* สไตล์หลักแบบมินิมอล */
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f8fafc; /* สีขาวฟ้า */
+    color: #333;
+}
+
+/* กรอบข้อความ */
+div {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* ข้อความ */
+p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* เอฟเฟกต์ fade-out */
+.fade-out {
+    animation: fadeOut 0.5s ease-out forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+}
+
+/* ปุ่ม */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ปุ่มลบ */
+#removeElementButton {
+    background-color: #ff6b6b;
+    color: white;
+}
+#removeElementButton:hover {
+    background-color: #e63946;
+    transform: scale(1.05);
+}
+
+/* ปุ่มกลับ */
+.back-button {
+    background-color: #0077b6;
+    color: white;
+    margin-top: 20px;
+}
+.back-button:hover {
+    background-color: #005f87;
+    transform: scale(1.05);
+}

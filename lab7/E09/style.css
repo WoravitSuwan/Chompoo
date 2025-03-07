@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Heading Style */
+h2 {
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Data Container Styling */
+#dataContainer {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph Style */
+p {
+    font-size: 18px;
+    color: #555;
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+/* Button Styling */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Hover Effects */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Back Button Styling */
+#backButton {
+    background-color: #28a745;
+}
+
+#backButton:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}

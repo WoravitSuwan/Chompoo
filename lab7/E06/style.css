@@ -1,0 +1,63 @@
+/* สไตล์หลักแบบมินิมอล */
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f8fafc; /* พื้นหลังขาว-ฟ้า */
+    color: #333;
+}
+
+/* ปุ่ม */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ปุ่มหลัก */
+#exampleButton {
+    background-color: #007bff;
+    color: white;
+}
+#exampleButton:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* ปุ่มกลับ */
+.back-button {
+    background-color: #28a745;
+    margin-top: 20px;
+}
+.back-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* ข้อความแจ้งเตือน */
+p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* เอฟเฟกต์ fade-in */
+.fade-in {
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
